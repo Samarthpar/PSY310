@@ -1,0 +1,107 @@
+9.6745 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+10.2159 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AFE971BE20>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AFE971BFA0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002AFE971BCA0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002AFEA711D60>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+10.2160 	EXP 	window1: mouseVisible = True
+10.2160 	EXP 	window1: backgroundImage = ''
+10.2160 	EXP 	window1: backgroundFit = 'none'
+10.2161 	EXP 	window1: mouseVisible = False
+10.2161 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+10.2161 	EXP 	window1: recordFrameIntervals = False
+10.3825 	EXP 	window1: recordFrameIntervals = True
+10.5657 	EXP 	Screen (0) actual frame rate measured at 59.60Hz
+10.5657 	EXP 	window1: recordFrameIntervals = False
+11.7319 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+11.7361 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.3, 0.3, 0.3]), colorSpace='rgb', contrast=0.3, depth=-2.0, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1.0, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.2, 0.2]), tex='sin', texRes=128.0, units='height', win=Window(...))
+11.7365 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+11.7366 	EXP 	New trial (rep=0, index=0): None
+11.7466 	EXP 	grating: ori = 2.0
+11.7466 	EXP 	fixation: autoDraw = True
+11.7817 	DATA 	Keypress: up
+12.7476 	EXP 	fixation: autoDraw = False
+12.7476 	EXP 	grating: autoDraw = True
+12.7476 	EXP 	grating: tex = 'sin'
+13.0472 	EXP 	grating: autoDraw = False
+13.3153 	EXP 	New trial (rep=1, index=0): None
+13.3165 	DATA 	Keypress: down
+13.3306 	EXP 	fixation: autoDraw = False
+13.3306 	EXP 	grating: autoDraw = False
+13.3306 	EXP 	grating: ori = 4.0
+13.3306 	EXP 	fixation: autoDraw = True
+14.3305 	EXP 	fixation: autoDraw = False
+14.3305 	EXP 	grating: autoDraw = True
+14.6306 	EXP 	grating: autoDraw = False
+14.7315 	EXP 	New trial (rep=2, index=0): None
+14.7326 	DATA 	Keypress: down
+14.7471 	EXP 	fixation: autoDraw = False
+14.7471 	EXP 	grating: autoDraw = False
+14.7471 	EXP 	grating: ori = 0.0
+14.7471 	EXP 	fixation: autoDraw = True
+15.7306 	EXP 	grating: autoDraw = True
+15.7472 	EXP 	fixation: autoDraw = False
+16.0304 	EXP 	grating: autoDraw = False
+16.1318 	EXP 	New trial (rep=3, index=0): None
+16.1328 	DATA 	Keypress: down
+16.1471 	EXP 	fixation: autoDraw = False
+16.1471 	EXP 	grating: autoDraw = False
+16.1471 	EXP 	grating: ori = 3.0
+16.1471 	EXP 	fixation: autoDraw = True
+17.1471 	EXP 	fixation: autoDraw = False
+17.1471 	EXP 	grating: autoDraw = True
+17.4477 	EXP 	grating: autoDraw = False
+17.9650 	EXP 	New trial (rep=4, index=0): None
+17.9661 	DATA 	Keypress: down
+17.9805 	EXP 	fixation: autoDraw = False
+17.9805 	EXP 	grating: autoDraw = False
+17.9805 	EXP 	grating: ori = 0.0
+17.9805 	EXP 	fixation: autoDraw = True
+18.9804 	EXP 	fixation: autoDraw = False
+18.9804 	EXP 	grating: autoDraw = True
+19.2805 	EXP 	grating: autoDraw = False
+19.3975 	EXP 	New trial (rep=5, index=0): None
+19.3986 	DATA 	Keypress: up
+19.4138 	EXP 	fixation: autoDraw = False
+19.4138 	EXP 	grating: autoDraw = False
+19.4138 	EXP 	grating: ori = 0.0
+19.4138 	EXP 	fixation: autoDraw = True
+20.3971 	EXP 	grating: autoDraw = True
+20.4138 	EXP 	fixation: autoDraw = False
+20.6973 	EXP 	grating: autoDraw = False
+20.9149 	EXP 	New trial (rep=6, index=0): None
+20.9159 	DATA 	Keypress: down
+20.9307 	EXP 	fixation: autoDraw = False
+20.9307 	EXP 	grating: autoDraw = False
+20.9307 	EXP 	grating: ori = 0.0
+20.9307 	EXP 	fixation: autoDraw = True
+21.9142 	EXP 	grating: autoDraw = True
+21.9309 	EXP 	fixation: autoDraw = False
+22.2138 	EXP 	grating: autoDraw = False
+22.3648 	EXP 	New trial (rep=7, index=0): None
+22.3660 	DATA 	Keypress: up
+22.3805 	EXP 	fixation: autoDraw = False
+22.3805 	EXP 	grating: autoDraw = False
+22.3805 	EXP 	grating: ori = 0.0
+22.3805 	EXP 	fixation: autoDraw = True
+23.3640 	EXP 	grating: autoDraw = True
+23.3805 	EXP 	fixation: autoDraw = False
+23.6639 	EXP 	grating: autoDraw = False
+23.6815 	EXP 	New trial (rep=8, index=0): None
+23.6825 	DATA 	Keypress: up
+23.6976 	EXP 	fixation: autoDraw = False
+23.6976 	EXP 	grating: autoDraw = False
+23.6976 	EXP 	grating: ori = 0.0
+23.6976 	EXP 	fixation: autoDraw = True
+24.6809 	EXP 	grating: autoDraw = True
+24.6976 	EXP 	fixation: autoDraw = False
+24.9808 	EXP 	grating: autoDraw = False
+25.0647 	EXP 	New trial (rep=9, index=0): None
+25.0657 	DATA 	Keypress: up
+25.0806 	EXP 	fixation: autoDraw = False
+25.0806 	EXP 	grating: autoDraw = False
+25.0806 	EXP 	grating: ori = 0.0
+25.0806 	EXP 	fixation: autoDraw = True
+26.0637 	EXP 	grating: autoDraw = True
+26.0809 	EXP 	fixation: autoDraw = False
+26.3638 	EXP 	grating: autoDraw = False
+26.3985 	DATA 	Keypress: up
+26.4139 	EXP 	fixation: autoDraw = False
+26.4139 	EXP 	grating: autoDraw = False
+26.4728 	EXP 	window1: mouseVisible = True
