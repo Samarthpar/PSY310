@@ -1,0 +1,196 @@
+8.0993 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1200]. Using actual size
+8.8073 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000289FF88F190>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000289FF88F130>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000289FF87DEB0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000289808A4F10>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.8074 	EXP 	window1: mouseVisible = True
+8.8075 	EXP 	window1: backgroundImage = ''
+8.8075 	EXP 	window1: backgroundFit = 'none'
+8.8077 	EXP 	window1: mouseVisible = False
+8.8077 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+8.8077 	EXP 	window1: recordFrameIntervals = False
+8.9726 	EXP 	window1: recordFrameIntervals = True
+9.1567 	EXP 	Screen (0) actual frame rate measured at 60.10Hz
+9.1568 	EXP 	window1: recordFrameIntervals = False
+11.2369 	EXP 	Created textWelcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textWelcome', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the experiment\n', units='height', win=Window(...), wrapWidth=1)
+11.2382 	EXP 	Created textStudy = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textStudy', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.2458 	EXP 	Created textInstructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textInstructions', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Get ready for the test', units='height', win=Window(...), wrapWidth=1)
+11.2471 	EXP 	Created textTest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textTest', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.2484 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.2565 	EXP 	Created textEnd = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='textEnd', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks for Participating\n', units='height', win=Window(...), wrapWidth=1)
+11.2690 	EXP 	textWelcome: autoDraw = True
+11.8940 	EXP 	Imported study_word.xlsx as conditions, 6 conditions, 1 params
+11.8945 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+11.8948 	EXP 	New trial (rep=0, index=0): {'stim_word': 'computer'}
+11.9012 	DATA 	Keypress: space
+11.9197 	EXP 	textWelcome: autoDraw = False
+11.9197 	EXP 	textStudy: height = 0.05
+11.9197 	EXP 	textStudy: height = 0.05
+11.9197 	EXP 	textStudy: height = 0.05
+11.9197 	EXP 	textStudy: text = 'computer'
+11.9197 	EXP 	textStudy: autoDraw = True
+12.9030 	EXP 	New trial (rep=0, index=1): {'stim_word': 'green'}
+12.9194 	EXP 	textStudy: autoDraw = False
+12.9194 	EXP 	textStudy: height = 0.05
+12.9194 	EXP 	textStudy: height = 0.05
+12.9194 	EXP 	textStudy: height = 0.05
+12.9194 	EXP 	textStudy: text = 'green'
+12.9194 	EXP 	textStudy: autoDraw = True
+13.9034 	EXP 	New trial (rep=0, index=2): {'stim_word': 'circle'}
+13.9209 	EXP 	textStudy: autoDraw = False
+13.9209 	EXP 	textStudy: height = 0.05
+13.9209 	EXP 	textStudy: height = 0.05
+13.9209 	EXP 	textStudy: height = 0.05
+13.9209 	EXP 	textStudy: text = 'circle'
+13.9209 	EXP 	textStudy: autoDraw = True
+14.9035 	EXP 	New trial (rep=0, index=3): {'stim_word': 'hill'}
+14.9210 	EXP 	textStudy: autoDraw = False
+14.9210 	EXP 	textStudy: height = 0.05
+14.9210 	EXP 	textStudy: height = 0.05
+14.9210 	EXP 	textStudy: height = 0.05
+14.9210 	EXP 	textStudy: text = 'hill'
+14.9210 	EXP 	textStudy: autoDraw = True
+15.9038 	EXP 	New trial (rep=0, index=4): {'stim_word': 'machine'}
+15.9189 	EXP 	textStudy: autoDraw = False
+15.9189 	EXP 	textStudy: height = 0.05
+15.9189 	EXP 	textStudy: height = 0.05
+15.9189 	EXP 	textStudy: height = 0.05
+15.9189 	EXP 	textStudy: text = 'machine'
+15.9189 	EXP 	textStudy: autoDraw = True
+16.9037 	EXP 	New trial (rep=0, index=5): {'stim_word': 'mountain'}
+16.9191 	EXP 	textStudy: autoDraw = False
+16.9191 	EXP 	textStudy: height = 0.05
+16.9191 	EXP 	textStudy: height = 0.05
+16.9191 	EXP 	textStudy: height = 0.05
+16.9191 	EXP 	textStudy: text = 'mountain'
+16.9191 	EXP 	textStudy: autoDraw = True
+17.9199 	EXP 	textStudy: autoDraw = False
+17.9199 	EXP 	textInstructions: autoDraw = True
+22.1927 	EXP 	Imported test_word.xlsx as conditions, 9 conditions, 2 params
+22.1932 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+22.1935 	EXP 	New trial (rep=0, index=0): {'stim_word': 'country', 'old_new': 'new '}
+22.1975 	DATA 	Keypress: space
+22.2019 	EXP 	textInstructions: autoDraw = False
+22.2019 	EXP 	textTest: height = 0.05
+22.2019 	EXP 	textTest: height = 0.05
+22.2019 	EXP 	textTest: height = 0.05
+22.2019 	EXP 	textTest: text = 'country'
+22.2019 	EXP 	textTest: autoDraw = True
+23.2123 	DATA 	Keypress: y
+23.2188 	EXP 	textTest: autoDraw = False
+23.2188 	EXP 	text: height = 0.05
+23.2188 	EXP 	text: height = 0.05
+23.2188 	EXP 	text: height = 0.05
+23.2188 	EXP 	text: text = 'Sorry!!! That was a new item'
+23.2188 	EXP 	text: autoDraw = True
+25.2041 	EXP 	New trial (rep=0, index=1): {'stim_word': 'hill', 'old_new': 'old'}
+25.2189 	EXP 	text: autoDraw = False
+25.2189 	EXP 	text: autoDraw = False
+25.2189 	EXP 	textTest: height = 0.05
+25.2189 	EXP 	textTest: height = 0.05
+25.2189 	EXP 	textTest: height = 0.05
+25.2189 	EXP 	textTest: text = 'hill'
+25.2189 	EXP 	textTest: autoDraw = True
+25.9618 	DATA 	Keypress: y
+25.9689 	EXP 	textTest: autoDraw = False
+25.9689 	EXP 	text: height = 0.05
+25.9689 	EXP 	text: height = 0.05
+25.9689 	EXP 	text: height = 0.05
+25.9689 	EXP 	text: text = 'Congratulations! it was old and you knew'
+25.9689 	EXP 	text: autoDraw = True
+27.9541 	EXP 	New trial (rep=0, index=2): {'stim_word': 'machine', 'old_new': 'old'}
+27.9686 	EXP 	text: autoDraw = False
+27.9686 	EXP 	text: autoDraw = False
+27.9686 	EXP 	textTest: height = 0.05
+27.9686 	EXP 	textTest: height = 0.05
+27.9686 	EXP 	textTest: height = 0.05
+27.9686 	EXP 	textTest: text = 'machine'
+27.9686 	EXP 	textTest: autoDraw = True
+28.8227 	DATA 	Keypress: y
+28.8353 	EXP 	textTest: autoDraw = False
+28.8353 	EXP 	text: text = 'Congratulations! it was old and you knew'
+28.8353 	EXP 	text: autoDraw = True
+30.8209 	EXP 	New trial (rep=0, index=3): {'stim_word': 'computer', 'old_new': 'old'}
+30.8356 	EXP 	text: autoDraw = False
+30.8356 	EXP 	text: autoDraw = False
+30.8356 	EXP 	textTest: height = 0.05
+30.8356 	EXP 	textTest: height = 0.05
+30.8356 	EXP 	textTest: height = 0.05
+30.8356 	EXP 	textTest: text = 'computer'
+30.8356 	EXP 	textTest: autoDraw = True
+31.4395 	DATA 	Keypress: y
+31.4537 	EXP 	textTest: autoDraw = False
+31.4537 	EXP 	text: text = 'Congratulations! it was old and you knew'
+31.4537 	EXP 	text: autoDraw = True
+33.4369 	EXP 	New trial (rep=0, index=4): {'stim_word': 'android ', 'old_new': 'new '}
+33.4523 	EXP 	text: autoDraw = False
+33.4523 	EXP 	text: autoDraw = False
+33.4523 	EXP 	textTest: height = 0.05
+33.4523 	EXP 	textTest: height = 0.05
+33.4523 	EXP 	textTest: height = 0.05
+33.4523 	EXP 	textTest: text = 'android '
+33.4523 	EXP 	textTest: autoDraw = True
+34.2121 	DATA 	Keypress: n
+34.2185 	EXP 	textTest: autoDraw = False
+34.2185 	EXP 	text: height = 0.05
+34.2185 	EXP 	text: height = 0.05
+34.2185 	EXP 	text: height = 0.05
+34.2185 	EXP 	text: text = "Congratulations! You didn't get fooled"
+34.2185 	EXP 	text: autoDraw = True
+36.2039 	EXP 	New trial (rep=0, index=5): {'stim_word': 'button ', 'old_new': 'new '}
+36.2184 	EXP 	text: autoDraw = False
+36.2184 	EXP 	text: autoDraw = False
+36.2184 	EXP 	textTest: height = 0.05
+36.2184 	EXP 	textTest: height = 0.05
+36.2184 	EXP 	textTest: height = 0.05
+36.2184 	EXP 	textTest: text = 'button '
+36.2184 	EXP 	textTest: autoDraw = True
+36.8591 	DATA 	Keypress: y
+36.8686 	EXP 	textTest: autoDraw = False
+36.8686 	EXP 	text: height = 0.05
+36.8686 	EXP 	text: height = 0.05
+36.8686 	EXP 	text: height = 0.05
+36.8686 	EXP 	text: text = 'Sorry!!! That was a new item'
+36.8686 	EXP 	text: autoDraw = True
+38.8535 	EXP 	New trial (rep=0, index=6): {'stim_word': 'green', 'old_new': 'old'}
+38.8695 	EXP 	text: autoDraw = False
+38.8695 	EXP 	text: autoDraw = False
+38.8695 	EXP 	textTest: height = 0.05
+38.8695 	EXP 	textTest: height = 0.05
+38.8695 	EXP 	textTest: height = 0.05
+38.8695 	EXP 	textTest: text = 'green'
+38.8695 	EXP 	textTest: autoDraw = True
+39.5271 	DATA 	Keypress: y
+39.5352 	EXP 	textTest: autoDraw = False
+39.5352 	EXP 	text: height = 0.05
+39.5352 	EXP 	text: height = 0.05
+39.5352 	EXP 	text: height = 0.05
+39.5352 	EXP 	text: text = 'Congratulations! it was old and you knew'
+39.5352 	EXP 	text: autoDraw = True
+41.5208 	EXP 	New trial (rep=0, index=7): {'stim_word': 'mountain', 'old_new': 'old'}
+41.5352 	EXP 	text: autoDraw = False
+41.5352 	EXP 	text: autoDraw = False
+41.5352 	EXP 	textTest: height = 0.05
+41.5352 	EXP 	textTest: height = 0.05
+41.5352 	EXP 	textTest: height = 0.05
+41.5352 	EXP 	textTest: text = 'mountain'
+41.5352 	EXP 	textTest: autoDraw = True
+42.2227 	DATA 	Keypress: y
+42.2354 	EXP 	textTest: autoDraw = False
+42.2354 	EXP 	text: text = 'Congratulations! it was old and you knew'
+42.2354 	EXP 	text: autoDraw = True
+44.2212 	EXP 	New trial (rep=0, index=8): {'stim_word': 'circle', 'old_new': 'old'}
+44.2355 	EXP 	text: autoDraw = False
+44.2355 	EXP 	text: autoDraw = False
+44.2355 	EXP 	textTest: height = 0.05
+44.2355 	EXP 	textTest: height = 0.05
+44.2355 	EXP 	textTest: height = 0.05
+44.2355 	EXP 	textTest: text = 'circle'
+44.2355 	EXP 	textTest: autoDraw = True
+44.7563 	DATA 	Keypress: y
+44.7684 	EXP 	textTest: autoDraw = False
+44.7684 	EXP 	text: text = 'Congratulations! it was old and you knew'
+44.7684 	EXP 	text: autoDraw = True
+46.7698 	EXP 	text: autoDraw = False
+46.7698 	EXP 	text: autoDraw = False
+46.7698 	EXP 	textEnd: autoDraw = True
+47.6715 	DATA 	Keypress: space
+47.6859 	EXP 	textEnd: autoDraw = False
+47.7825 	EXP 	window1: mouseVisible = True
